@@ -1,7 +1,5 @@
 #include <iostream>
 
-#include "MathFunctions.h"
-
 // a hack square root calculation using simple operations
 double mysqrt(double x)
 {
@@ -18,7 +16,7 @@ double mysqrt(double x)
     }
     double delta = x - (result * result);
     result = result + 0.5 * delta / result;
-    std::cout << "Computing sqrt of " << x << " to be " << result << std::endl;
+    //std::cout << "Computing sqrt of " << x << " to be " << result << std::endl;
   }
   return result;
 }
